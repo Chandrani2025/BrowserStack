@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-30T00:16:13 IST" name="Suite" finished-at="2024-12-30T00:17:48 IST" duration-ms="94862">
+  <suite started-at="2024-12-30T11:48:35 IST" name="Suite" finished-at="2024-12-30T11:50:00 IST" duration-ms="84623">
     <groups>
     </groups>
-    <test started-at="2024-12-30T00:16:13 IST" name="Test" finished-at="2024-12-30T00:17:48 IST" duration-ms="94862">
+    <test started-at="2024-12-30T11:48:35 IST" name="Test" finished-at="2024-12-30T11:50:00 IST" duration-ms="84623">
       <class name="ElPais.Assignment.scrapeArticles">
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T00:16:13 IST" name="lauchApplication" finished-at="2024-12-30T00:17:41 IST" duration-ms="87825" status="PASS">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T11:48:35 IST" name="lauchApplication" finished-at="2024-12-30T11:49:57 IST" duration-ms="81220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchApplication -->
-        <test-method signature="articles()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T00:17:41 IST" name="articles" finished-at="2024-12-30T00:17:48 IST" duration-ms="7015" status="PASS">
+        <test-method signature="articles()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T11:49:57 IST" name="articles" finished-at="2024-12-30T11:50:00 IST" duration-ms="3380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- articles -->
-        <test-method is-config="true" signature="close()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T00:17:49 IST" name="close" finished-at="2024-12-30T00:17:49 IST" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:ElPais.Assignment.scrapeArticles@61a88b8c]" started-at="2024-12-30T11:50:01 IST" name="close" finished-at="2024-12-30T11:50:01 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

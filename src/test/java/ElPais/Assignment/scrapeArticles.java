@@ -141,6 +141,16 @@ public class scrapeArticles extends BaseTest{
 	private void saveImage(String imageurl,String title) throws IOException {
 	// TODO Auto-generated method stub
     	 	String path="./Images/";
+    	 	
+    	 	File directory = new File(path);
+            if (!directory.exists()) {
+                boolean dirsCreated = directory.mkdirs(); 
+                if (dirsCreated) {
+                    System.out.println("Directory created successfully.");
+                } else {
+                    System.out.println("Failed to create directory.");
+                }
+            }
     	 	URL imageURL = new URL(imageurl);
     	 	BufferedImage saveImage = ImageIO.read(imageURL);
      
